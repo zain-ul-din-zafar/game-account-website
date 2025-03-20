@@ -31,7 +31,7 @@ export default function Hero({ ...rest }: HeroProps) {
             <p className="text-center text-xl">
               Unending Fun and Thrill! We are offering all in one place.
             </p>
-            <div className="flex flex-col self-start mt-9 gap-4">
+            <div className="flex flex-col items-center justify-center self-start mt-9 gap-4">
               <h1 className="font-bold">Download For Free</h1>
               <div className="flex gap-3">
                 <a href={accountLinks.google} target="_blank">
